@@ -1,0 +1,22 @@
+/* Core styles. Note: postcss search path includes node_modules */
+@import "modern-normalize/modern-normalize.css";
+@import "./reset.css";
+@import "./fonts.css";
+
+/* Core variables * /
+@import "./variables.css";
+
+/* Core components */
+@import "./components/accordion.css";
+@import "./components/badge.css";
+@import "./components/blockquote.css";
+@import "./components/body.css";
+@import "./components/breadcrumb.css";
+@import "./components/button.css";
+@import "./components/code.css";
+@import "./components/empty-state.css";
+@import "./components/footnotes.css";
+@import "./components/icon.css";
+@import "./components/pagination.css";
+@import "./components/search.css";
+@import "./components/toc.css";
